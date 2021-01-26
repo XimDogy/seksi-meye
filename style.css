@@ -20,6 +20,11 @@
   left: 50%;
   margin: -188.5px 0 0 -165px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .cover{
@@ -76,6 +81,11 @@
   width: 108px;
   background: white;
   border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.seksi-div:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .seksi-sobi{
