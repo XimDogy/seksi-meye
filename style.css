@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#container{
+      background-color: #1DA7B4;
+      height: 669px;
+      width: 377px;
+      margin: 100px auto;
+      position: relative;
+}
+
+.card{
+  width: 330px;
+  height: 377px;
+  background-color: white;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -188.5px 0 0 -165px;
+  border-radius: 10px;
+}
+
+.cover{
+  position: relative;
+  height: 140px;
+  width: 330px;
+  background-image: url(https://raw.githubusercontent.com/mahnoork18/profile-card/f33f36f519407eb902366227f2b0c39baaf40746/profile-card-component-main/images/bg-pattern-card.svg);
+  border-radius: 10px 10px 0 0;
+}
+
+.out-div{
+  top: 50%; left: 50%;
+  transform: translate(-50%, 15%);
+  position: absolute;
+}
+.name-country{
+  position: relative;
+  text-align: center;
+  height: 146px;
+  width: 330px;
+}
+.name-country h3{
+  margin-top: 50px;
+  font-weight: 550;
+  text-align: center;
+}
+
+.name-country .age{
+  color: #808185;
+  font-weight: 100;
+}
+
+.name-country p{
+  margin-top: 10px;
+  font-weight: 100;
+  text-align: center;
+  color: #808185;
+}
+.inside-div{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hr-line{
+  border: none;
+  height: 1px;
+  color: #E8E8E8;
+  background-color: #E8E8E8;
+}
+.seksi-div{
+  position: relative;
+  height: 108px;
+  width: 108px;
+  background: white;
+  border-radius: 100%;
+}
+
+.seksi-sobi{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  height: 102px;
+  width: 102px;
+  border-radius: 100%;
+}
+
+/* last part */
+.last-out-div{
+   display: flex;
+}
+
+.component{
+  flex: 1;
+  text-align: center;
+}
+.last-inner-div{
+  margin-top: 20px;
+}
+
+.component .last-inner-div span{
+    font-size: 0.8rem;
+    color: #808185;
+}
+.component .last-inner-div h3{
+    font-weight: 800;
+}
